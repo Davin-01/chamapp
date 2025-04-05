@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 const Savings = () => {
   const navigate = useNavigate();
   const [savings, setSavings] = useState([
-    { id: 1, name: "John Doe", amount: 5000, date: "March 1, 2025" },
-    { id: 2, name: "Jane Smith", amount: 3000, date: "March 3, 2025" },
+    { id: 1, name: "John Rawen", amount: 5000, date: "March 1, 2025" },
+    { id: 2, name: "Jane Ogolla", amount: 3000, date: "March 3, 2025" },
   ]);
   const [newSavings, setNewSavings] = useState({ name: "", amount: "" });
 
