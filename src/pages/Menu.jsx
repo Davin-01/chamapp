@@ -10,7 +10,7 @@ const Menu = () => {
     { title: "Contributions", path: "/contributions" },
     { title: "Meetings", path: "/meetings" },
     { title: "Members", path: "/members" },
-    { title: "Settings", path: "/settings" },
+    
   ];
 
   return (

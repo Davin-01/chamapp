@@ -16,13 +16,16 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="flex space-x-6">
+        <li>
+            <Link to="/" className="hover:text-gold transition">Home</Link>
+          </li>
           <li>
             <Link to="/dashboard" className="hover:text-gold transition">Dashboard</Link>
           </li>
           <li>
             <Link to="/menu" className="hover:text-gold transition">Menu</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/savings" className="hover:text-gold transition">Savings</Link>
           </li>
           <li>
@@ -34,6 +37,9 @@ const Navbar = () => {
           <li>
             <Link to="/meetings" className="hover:text-gold transition">Meetings</Link>
           </li>
+          <li>
+            <Link to="/members" className="hover:text-gold transition">Members</Link>
+          </li> */}
         </ul>
 
         {/* Logout Button */}
