@@ -41,12 +41,13 @@ const Navbar = () => {
       {/* Mobile Menu Dropdown */}
       {isOpen && (
         <div className="md:hidden bg-blue-800 text-white p-4 mt-2 space-y-3">
+          <Link to="/" className="block hover:text-gold">Home</Link>
           <Link to="/dashboard" className="block hover:text-gold">Dashboard</Link>
-          <Link to="/savings" className="block hover:text-gold">Savings</Link>
+          {/* <Link to="/savings" className="block hover:text-gold">Savings</Link>
           <Link to="/loans" className="block hover:text-gold">Loans</Link>
           <Link to="/contributions" className="block hover:text-gold">Contributions</Link>
           <Link to="/meetings" className="block hover:text-gold">Meetings</Link>
-          <Link to="/members" className="block hover:text-gold">Members</Link>
+          <Link to="/members" className="block hover:text-gold">Members</Link> */}
         </div>
       )}
     </nav>
